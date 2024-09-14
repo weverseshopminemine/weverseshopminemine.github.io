@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*rootear la pagina*/
+@import url();
+
+:root {
+    --colornegro: #000000;
+    --colordeborde: #45474F;
+    --colorgris: #8E8E8E;
+    --colorceleste: #08CCCA;
+    --colorblanco: #FFFFFF;
+    --colorgris2: #bbbbbb;
+    --color-background: #141414;
+    --color-text-white: #FFFFFF;
+    --color-placeholder: #C4C4C4;
+    --color-light-black: #29384D;
+    --color-background-input-field: #242424;
+    --color-border-1: #383838;
+    --color-actions: #38E078;
+    --color-border: #E5E8EB;
+
+    --fontroboto: "Roboto", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 0;
+
+    font-family: var(--fontroboto);
+    font-size: 14px;
+}
+
+/* Contenedor */
+.container {
+    max-width: 1140px;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:
+        system-ui,
+        /* macOS 10.11-10.12 */
+        "apple-system",
+        /* Windows 6+ */
+        "Segoe UI",
+        /* Android 4+ */
+        "Roboto",
+        /* Ubuntu 10.10+ */
+        "Ubuntu",
+        /* Gnome 3+ */
+        "Cantarell",
+        /* KDE Plasma 5+ */
+        "Noto Sans",
+        /* fallback */
+        sans-serif,
+        /* macOS emoji */
+        "Apple Color Emoji",
+        /* Windows emoji */
+        "Segoe UI Emoji",
+        /* Windows emoji */
+        "Segoe UI Symbol",
+        /* Linux emoji */
+        "Noto Color Emoji";
+}
+
+
+/*estilo de toda la pagina*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+    /* text-transform: uppercase; */
+}
+
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* button {
+    cursor: pointer;
+    border: var(--colorceleste);
+    padding: 7px 15px;
+    border-radius: 50px;
+    background-color: var(--colorceleste);
+    font-size: 1.05rem;
+    font-weight: 400;
+} */
+
+.btn1 {
+    background-color: var(--colorceleste);
+    color: var(--colorblanco);
+    border: 2px solid var(--colorceleste);
+    border-radius: 100%;
+}
+
+.btn1:hover {
+    background-color: var(--colorblanco);
+    color: var(--colorceleste);
+    border: 2px solid var(--colorceleste);
+}
+
+.btn2 {
+    background-color: var(--colorblanco);
+    border: 1px solid var(--colorgris2);
+    padding: 10px 15px;
+    box-shadow: var(--colorgris2);
+}
+
+.btn2:hover {
+    background-color: var(--colorgris2);
+    border: 2px solid var(--colorgris2);
+    box-shadow: #8E8E8E;
+}

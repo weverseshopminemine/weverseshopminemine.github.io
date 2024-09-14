@@ -1,0 +1,29 @@
+footer {
+    background-color: var(--colorblanco);
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    color: var(--colorgris2);
+    padding: 10px 0;
+
+    & .politicas {
+        text-align: center;
+        gap: 50px;
+        font-size: 10px;
+
+        & a {
+            color: var(--colorgris2)
+        }
+
+        & a:hover {
+            color: var(--colorgris);
+        }
+    }
+
+    & .copyright {
+        flex-direction: column;
+        text-align: center;
+    }
+}

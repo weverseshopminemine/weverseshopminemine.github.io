@@ -392,7 +392,8 @@ a {
 }
 
 .articulo_ {
-    margin: 0 238px;
+    margin-right: 300px;
+    margin-left: 250px;
     border-radius: 1.6rem;
     background: var(--Surface-Color-surface-default, #fff);
     display: flex;
@@ -517,13 +518,18 @@ a {
     margin: 0px;
 }
 
-.imagen_ {
+.imagen_{
     overflow: hidden;
     position: relative;
     border-radius: var(--Size---shadow-shadow-blur-12, 1.2rem);
     background-color: rgb(246, 246, 246);
     text-align: center;
     display: block;
+    
+}
+
+.imagen_ img{
+    transition: 0.2 zoom-in;
 }
 
 .texto_abajo {
@@ -677,7 +683,7 @@ a {
 
 .lomejor_ {
     padding: 6.4rem 0px 0px;
-    margin: 0 230px;
+    margin: 0 240px;
 }
 
 .titulo_ {
@@ -725,7 +731,7 @@ a {
 .cHEPHd {
     appearance: none;
     flex: 0 0 auto;
-    margin: 0px 0.2rem;
+    margin: 0px 0.5rem;
     cursor: pointer;
     border-radius: 10rem;
     border: 0.1rem solid var(--divide-color-divide-gray-200, #dcdee4);
@@ -735,7 +741,7 @@ a {
     font-weight: 500;
     line-height: normal;
     display: flex;
-    padding: 0px 1.2rem;
+    padding: 0px 1.7rem;
     -webkit-box-align: center;
     align-items: center;
 }

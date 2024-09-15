@@ -392,8 +392,7 @@ a {
 }
 
 .articulo_ {
-    margin-right: 300px;
-    margin-left: 250px;
+    margin: .2rem 240px;
     border-radius: 1.6rem;
     background: var(--Surface-Color-surface-default, #fff);
     display: flex;

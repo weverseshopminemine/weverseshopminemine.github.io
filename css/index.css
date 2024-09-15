@@ -276,7 +276,7 @@ a {
 
 @media (min-width: 1080px) {
     .artist {
-        padding: 0px 5rem;
+        /* paddingle: 0px 5rem; */
         width: 100%;
     }
 }
@@ -286,7 +286,7 @@ a {
 }
 
 .artist2 {
-    padding-left: 13rem;
+    padding-left: 18rem;
 }
 
 .slider_artist {
